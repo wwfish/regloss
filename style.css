@@ -67,6 +67,15 @@ h6 {
   }
 }
 
+.logo-header {
+  width: 100%;
+}
+
+.logo-header img {
+  margin: 0 auto;
+  display: flex;
+}
+
 .text {
   resize: none;
   width: 100%;
