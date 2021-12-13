@@ -20,7 +20,7 @@
 
 body {
   position: relative;
-  font-family: inherit;
+  font-family: 'Noto Sans', sans-serif;
   color: #000;
   margin: 0;
   z-index: 1;
