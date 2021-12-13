@@ -8,21 +8,22 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<h1>Simple Translator</h1>
+  <h1>reGloss</h1>
+<h2>Simple Translator</h2>
 <div class="sheets-row">
   <input class="sheets" id="sheetidinput" placeholder="Enter your Google Sheets ID here"></input><input type="button" value = "GET" onclick="initializeDict();"></input>
 </div>
 <div class="container">
   <div class="lang item">
     <textarea class="input text" name="input" id="input" wrap="hard"></textarea>
-    <label for="input">Language 1</label>
+    <label for="input">Origin Language</label>
     </div>
   <div class="icon item">
     <span class="fa fa-exchange-alt"></span>
   </div>
   <div class="lang item">
-    <div class="output text" name="output" id="output" contenteditable="true" wrap="hard"></div>
-    <label for="output">Language 2</label>
+    <div class="output text" name="output" id="output" contenteditable="true"></div>
+    <label for="output">Translation Language</label>
   </div>
 </div>
 <!-- partial -->
